@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>施义锋 | Yifeng Shi — 海洋生态学</title>
+<style>
+  :root {
+    --deep: #0b2c4d;
+    --sea: #14639c;
+    --teal: #2a9d8f;
+    --sand: #f4f1ea;
+    --ink: #1f2d3a;
+    --muted: #5b6b7a;
+    --line: #e2ddd2;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, "PingFang SC", "Microsoft YaHei", "Segoe UI", sans-serif;
+    color: var(--ink);
+    background: var(--sand);
+    line-height: 1.7;
+  }
+  a { color: var(--sea); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+
+  header {
+    background: linear-gradient(135deg, var(--deep) 0%, var(--sea) 60%, var(--teal) 100%);
+    color: #fff;
+    padding: 4.5rem 1.5rem 3.5rem;
+    text-align: center;
+  }
+  .avatar {
+    width: 110px; height: 110px;
+    border-radius: 50%;
+    background: rgba(255,255,255,.15);
+    border: 3px solid rgba(255,255,255,.6);
+    margin: 0 auto 1.2rem;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 2.6rem;
+    color: #fff;
+  }
+  header h1 { font-size: 2rem; letter-spacing: 1px; margin-bottom: .3rem; }
+  header .en { font-size: 1rem; opacity: .85; font-weight: 300; }
+  header .role { margin-top: .8rem; font-size: 1.05rem; opacity: .95; }
+  header .tags { margin-top: 1rem; }
+  header .tag {
+    display: inline-block; background: rgba(255,255,255,.18);
+    padding: .25rem .8rem; border-radius: 20px;
+    font-size: .85rem; margin: .25rem .3rem;
+  }
+
+  main { max-width: 900px; margin: -1.5rem auto 0; padding: 0 1.5rem 4rem; }
+  section {
+    background: #fff; border-radius: 12px;
+    box-shadow: 0 2px 12px rgba(11,44,77,.07);
+    padding: 2rem 2.2rem; margin-bottom: 1.6rem;
+  }
+  h2 {
+    font-size: 1.25rem; color: var(--deep);
+    padding-bottom: .6rem; margin-bottom: 1.2rem;
+    border-bottom: 2px solid var(--teal);
+    display: flex; align-items: center; gap: .5rem;
+  }
+  .edu-item { display: flex; gap: 1rem; margin-bottom: 1rem; }
+  .edu-item .yr { font-weight: 700; color: var(--sea); min-width: 70px; }
+  .paper { padding: 1rem 0; border-bottom: 1px solid var(--line); }
+  .paper:last-child { border-bottom: none; }
+  .paper h3 { font-size: 1.02rem; line-height: 1.5; margin-bottom: .4rem; }
+  .paper h3 a { color: var(--ink); }
+  .paper h3 a:hover { color: var(--sea); }
+  .paper .meta { font-size: .85rem; color: var(--muted); }
+  .paper .meta b { color: var(--deep); }
+  .badge {
+    display: inline-block; font-size: .75rem;
+    background: #e7f3f2; color: var(--teal);
+    padding: .1rem .5rem; border-radius: 4px; margin-left: .4rem;
+  }
+  .doi { font-family: monospace; font-size: .85rem; color: var(--muted); }
+  footer { text-align: center; color: var(--muted); font-size: .85rem; padding: 2rem 0; }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="avatar">🌊</div>
+  <h1>施义锋</h1>
+  <div class="en">Yifeng Shi</div>
+  <div class="role">在读博士 · 海洋生态学与生物地球化学</div>
+  <div class="tags">
+    <span class="tag">大型底栖动物</span>
+    <span class="tag">碳循环与碳储存</span>
+    <span class="tag">潮间带</span>
+    <span class="tag">生物扰动</span>
+  </div>
+</header>
+
+<main>
+  <section>
+    <h2>👤 简介</h2>
+    <p>
+      主要从事海洋生态学与生物地球化学研究。研究聚焦潮间带大型底栖动物功能多样性、生物扰动及其对沉积物碳氮循环和碳储存的影响，通过大尺度野外调查、功能性状分析和 <sup>13</sup>C 稳定同位素示踪实验，探讨不同功能型底栖动物对有机碳迁移、转化与保存的调控作用。
+    </p>
+  </section>
+
+  <section>
+    <h2>🎓 教育背景</h2>
+    <div class="edu-item"><span class="yr">博士</span><div>中国地质大学（武汉）</div></div>
+    <div class="edu-item"><span class="yr">硕士</span><div>天津科技大学</div></div>
+    <div class="edu-item"><span class="yr">本科</span><div>闽江学院</div></div>
+  </section>
+
+  <section>
+    <h2>📄 代表性论文</h2>
+
+    <div class="paper">
+      <h3><a href="https://doi.org/10.1016/j.pocean.2025.103663">Spatial and seasonal variation in bioturbation potential of macrobenthic communities in Bohai Bay</a><span class="badge">研究论文</span></h3>
+      <div class="meta"><b>Yifeng Shi</b>, Wenzhe Xu, Rui Gu, Wenxin Zhou, Guicheng Zhang, Yu Guo, Yiyan Guo, Jun Sun</div>
+      <div class="meta">Progress in Oceanography, 241: 103663 (2026)</div>
+      <div class="doi">DOI: 10.1016/j.pocean.2025.103663</div>
+    </div>
+
+    <div class="paper">
+      <h3><a href="https://doi.org/10.1016/j.marenvres.2023.106072">Responses of biological traits of macrobenthic fauna to a eutrophication gradient in a semi-enclosed bay, China</a><span class="badge">研究论文</span></h3>
+      <div class="meta"><b>Yifeng Shi</b>, Yixuan He, Paul K.S. Shin, Yu Guo, Guodong Zhang, Yujian Wen, Guicheng Zhang, Wenzhe Xu, Jun Sun</div>
+      <div class="meta">Marine Environmental Research, 189: 106072 (2023)</div>
+      <div class="doi">DOI: 10.1016/j.marenvres.2023.106072</div>
+    </div>
+
+    <div class="paper">
+      <h3><a href="https://doi.org/10.1016/j.marpolbul.2022.113918">Species and functional diversity of marine macrobenthic community and benthic habitat quality assessment in semi-enclosed waters upon recovering from eutrophication, Bohai Bay, China</a><span class="badge">研究论文</span></h3>
+      <div class="meta"><b>Yifeng Shi</b>, Guicheng Zhang, Guodong Zhang, Yujian Wen, Yiyan Guo, Liying Peng, Wenzhe Xu, Jun Sun</div>
+      <div class="meta">Marine Pollution Bulletin, 181: 113918 (2022)</div>
+      <div class="doi">DOI: 10.1016/j.marpolbul.2022.113918</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>📬 联系方式</h2>
+    <p>📧 <a href="mailto:shiyifeng185@163.com">shiyifeng185@163.com</a></p>
+  </section>
+</main>
+
+<footer>© 2026 施义锋 · Powered by GitHub Pages</footer>
+
+</body>
+</html>
